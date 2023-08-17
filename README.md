@@ -28,3 +28,4 @@ This project was inspired by the course "Frontend Developer from the basis" by o
 
 ## Author
 Created by Szymon Brzozowski.
+[my](images/IMG_7526.jpg)
