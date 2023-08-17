@@ -1,0 +1,90 @@
+.form {
+    display: block;
+    margin-top: 0em;
+    text-align: center;
+}
+
+.form__labelText {
+    font-size: 28px;
+    background-color: hsl(271, 69%, 60%);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.form__field {
+    font-size: 28px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 4px;
+}
+
+.form__button {
+    border-radius: 4px;
+    background-color: hsl(271, 69%, 60%);
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 550px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.form__button:active {
+    background-color: hsl(271, 69%, 65%);
+}
+
+.form__button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.form__button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.form__button:hover span {
+    padding-right: 25px;
+}
+
+.form__button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.form__info {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    width: auto;
+}
+
+.form__result {
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    width: auto;
+}

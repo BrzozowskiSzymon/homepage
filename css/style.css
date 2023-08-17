@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: hsl(271, 69%, 75%);
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
