@@ -1,5 +1,5 @@
 # Homepage  
-The subject of the project is my own homepage.<br>Here is a working live [DEMO(click)](https://boozyboss.github.io/homepage/)
+The subject of the project is my own homepage.<br>Here is a working live demo -> [(CLICK HERE)](https://boozyboss.github.io/homepage/)
 
 ## Table of Contents
 * [Description](#description)
