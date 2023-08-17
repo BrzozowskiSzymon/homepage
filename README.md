@@ -27,4 +27,6 @@ Project is in progress and it is the result of learning programming.
 This project was inspired by the course "Frontend Developer from the basis" by online programming school YouCode.
 
 ## Author
-Created by Szymon Brzozowski.
+Created by Szymon Brzozowski. 
+
+![Szymon](images/IMG_7526.jpg)
