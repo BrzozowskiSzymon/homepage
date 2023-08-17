@@ -7,7 +7,15 @@ html {
 }
 
 body {
-    background-color: hsl(271, 69%, 75%);
-    color: white;
-    font-family: 'Dosis', sans-serif;
+    background-color: hsl(14, 16%, 75%);
+    max-width: 1800px;
+    min-width: none;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.boody--dark {
+    color: #eee;
+    background: #683c3c;
 }

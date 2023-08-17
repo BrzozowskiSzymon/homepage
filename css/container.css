@@ -1,10 +1,6 @@
 .container {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.container__header {
-    color: rgb(255, 255, 255);
     text-align: center;
+    color: hsl(27, 100%, 10%);
+    font-size: large;
+    width: auto;
 }

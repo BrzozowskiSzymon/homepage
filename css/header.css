@@ -1,0 +1,15 @@
+.header__logo {
+    width: 400px;
+    margin: auto;
+    display: block;
+    padding: 25px;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.header__title {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    width: auto;
+}
