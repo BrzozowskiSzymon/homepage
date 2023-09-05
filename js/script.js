@@ -3,7 +3,7 @@
     console.log("Hellow everbody!")
     }
     
-    const toggleBacground = () => {
+    const onChangeBackgroundClick = () => {
         const body = document.querySelector(".js-body");
         const nextColorName = document.querySelector(".js-nextColorName");
 
