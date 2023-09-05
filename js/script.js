@@ -1,11 +1,24 @@
-console.log("Hellow everbody!")
+{
+    const welcome = () => {
+    console.log("Hellow everbody!")
+    }
+    
+    const toggleBacground = () => {
+        const body = document.querySelector(".js-body");
+        const nextColorName = document.querySelector(".js-nextColorName");
 
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-themeName");
+        body.classList.toggle("body--dark");
+        nextColorName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+    
+    };
 
-button.addEventListener("click", () => {
-    body.classList.toggle("boody--dark");
-    nextColorName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+    const init = () => {
+        let button = document.querySelector(".js-button");
 
-    });
+        button.addEventListener("click", onChangeBackgroundClick);
+
+        welcome();
+    };
+
+    init();
+}
